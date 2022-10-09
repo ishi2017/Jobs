@@ -1,0 +1,50 @@
+body{
+    /* background-color: cyan; */
+    background-image: url('/resources/background.png');
+    background-size:20%;
+    text-align: center;
+    color: darkslategray;
+}
+#signin{
+    padding: 5%;
+    margin: 5% 28%;
+    background-image: url('/resources/sign_in_background.jpg');
+    border-radius: 50%;
+    text-align: center;
+}
+#signup{
+    border-bottom: none;
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    text-decoration: underline;
+}
+#signup:hover{
+    background-color: yellow;
+    text-align: center;
+    color: brown;
+    font-style: bold;
+    text-decoration: underline;
+}
+#heading{
+    text-align: center;
+    color: green;
+    font-style: italic;
+    text-decoration: underline;
+}
+#uname,#pass{
+    background-color: cyan;
+    margin: 2%;
+    padding: 1%;
+}
+#signin p{
+    font-weight: bold;
+}
+#submit{
+    font-size: small;
+    color:brown; 
+    font-weight: bold;
+}
+#title{
+    background-color:lightblue ;
+}
