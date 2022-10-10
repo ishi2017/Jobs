@@ -7,7 +7,7 @@ body{
 #signin{
     padding: 5%;
     margin: 5% 28%;
-    background-image: url('/resources/sign_in_background.jpg');
+    background-image: url('resources/sign_in_background.jpg');
     border-radius: 50%;
     text-align: center;
 }
