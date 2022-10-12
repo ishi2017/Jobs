@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup</title>
+<style type="text/css">
+@import url("../webfonts/BeautyDemo/stylesheet.css");
+body {
+    background-color: #F4F3E2;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+}
+#mainContent #mainSection #formframe {
+    position: absolute;
+    width: 450px;
+    text-align: left;
+    border-width: thick;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 5px 5px 2px;
+    box-shadow: 5px 5px 2px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    top: 75px;
+    right: 30%;
+    left: auto;
+}
+#signupform p #collegeAddress {
+    vertical-align: top;
+}
+#mainSection #formframe #signupform {
+    width: 99%;
+}
+#signupform p #submit {
+    width: 50%;
+    position: static;
+    margin-right: 5px;
+    float: right;
+    clear: both;
+    color: #981A1C;
+    border-radius: 5px 10px;
+    background-color: #EEEEEE;
+    -webkit-box-shadow: 4px 4px #000000;
+    box-shadow: 4px 4px #000000;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="documentheader" style="font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif; font-style: italic; font-size: 16px; color: #000000; text-align: center;">Sign up&nbsp;
+	 
+    <main id="mainContent">
+       <section id="mainSection">
+        <div id="formframe">
+          <form action="../index.html" method="post" name="signupform" id="signupform" autocomplete="on" accept-charset="UTF-8">
+                     
+              <p>
+                <label for="email">Email:</label>
+                <input name="email" type="email" required="required" id="email" placeholder="abc@gmail.com" size="50%">
+              </p>
+            <p>
+                <label for="name">Name:</label>
+                <input name="name" type="text" required="required" id="name" placeholder="Ram Kumar" size="50%">
+            </p>
+            <p>Gender:</p>
+            <table width="169">
+              <tr>
+                <td align="center" valign="middle"><label>
+                  <input type="radio" name="Gender" value="radio" id="Gender">
+                  Male</label>                  <label>
+                    <input type="radio" name="Gender" value="radio" id="Gender_1">
+                  Female</label></td>
+              </tr>
+            </table>
+            <p>
+              <label for="collegename">College Name:</label>
+              <input name="collegename" type="text" required="required" id="collegename" form="signupform" placeholder="IIT Delhi" autocomplete="on" size="50%">
+            </p>
+            <p>
+              <label for="textarea" id="collegeAddress">College Address:</label>
+              <textarea name="textarea" cols="50%" rows="5" required="required" id="textarea" placeholder="IIT Delhi, Near Kalu Sarai, South Delhi"></textarea>
+            </p>
+              <p>
+                <label for="qualification">Heighest Qualification:</label>
+                <select name="qualification" size="1" required="required" id="qualification" form="signupform">
+                  <option>P.hd (Doctorate)</option>
+                  <option>Masters in Science (M.S)</option>
+                  <option>Masters in Technology</option>
+                  <option>B.Tech</option>
+                  <option>Diploma</option>
+                </select>
+              </p>
+              <p>
+                <label for="select">Discipline:</label>
+                <select name="select" size="1" required="required" id="select" form="signupform">
+                  <option>Computer Engineering</option>
+                  <option>Electrical Engineering</option>
+                  <option>Electronic Engineering</option>
+                  <option>Mechanical Engineer</option>
+                  <option>Civil Engineer</option>
+                </select>
+              </p>
+              <p>
+                <label for="mbnumber">Mobile Number:</label>
+                <input name="mbnumber" type="number" required="required" id="mbnumber" placeholder="9155548518">
+              </p>
+              <p>
+                <label for="dob">Date of Birth :</label>
+                <input name="dob" type="date" required="required" id="dob">
+            </p>
+            <p>
+              <label for="ca1">Correspondence Address1:</label>
+              <input name="ca1" type="text" required="required" id="ca1" placeholder="#140, Model Town" size="50%">
+            </p>
+            <p>
+              <label for="ca2">Correspondence Address2:</label>
+              <input name="ca2" type="text" id="ca2" placeholder="Near Stadium" size="50%">
+            </p>
+            <p>
+              <label for="ca3">Correspondence Address3:</label>
+                <input name="ca3" type="text" id="ca3" placeholder="Ludhiana" size="50%">
+            </p>
+            <p>
+                <label for="number">Correspondance Address PIN:</label>
+                <input name="number" type="number" required="required" id="number" placeholder="148033" min="6">
+            </p>
+              <p>
+                <label for="textarea2">Key Skills you Possess:</label>
+                <textarea name="textarea2" cols="43" rows="5" id="textarea2" placeholder="Python, AutoCad,Creo etc"></textarea>
+              </p>
+              <p>
+                <label for="password">Password:</label>
+                <input name="password" type="password" required="required" id="password" placeholder="Password" maxlength="8">
+              </p>
+              <p>
+                <label for="password2">Confirm Password:</label>
+                <input name="password2" type="password" required="required" id="password2" placeholder="Confirm Password" maxlength="8">
+              </p>
+              <p>
+                <input name="submit" type="submit" autofocus="autofocus" id="submit" form="signupform" formaction="../index.html" formmethod="POST" title="Register" value="Submit">
+              </p>
+          </form>
+</div>
+      </section>
+    </main>
+	  
+<footer>
+	<a href="../index.html">Home</a>
+</footer>
+
+</body>
+</html>

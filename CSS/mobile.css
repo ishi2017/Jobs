@@ -1,0 +1,37 @@
+@charset "utf-8";
+.mainnav #navmenu {
+    width: 95%;
+    word-spacing: 2px;
+  }
+.mainnav #navmenu .menuitems {
+    position: relative;
+	font-size: 10px;
+}
+#homesubmenu,#cosubmenu,#cesubmenu,#rsubmenu {
+     width: 150px;
+}
+ul li #about, #contact, #feedback {
+	font-size: 10px
+}
+.mainnav #navmenu .menuitems:hover #homesubmenu {
+    
+    margin-left: 30%;
+    
+}
+
+
+.mainnav #navmenu .menuitems:hover #cosubmenu {
+    
+    margin-left: 45%;
+   
+}
+.mainnav #navmenu .menuitems:hover #cesubmenu {
+   
+    margin-left: 120%;
+   
+}
+.mainnav #navmenu .menuitems:hover #rsubmenu {
+   
+    margin-left: 615%;
+   
+}

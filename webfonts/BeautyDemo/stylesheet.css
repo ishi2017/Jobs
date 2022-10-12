@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'BeautyDemo';
+	src: url('BeautyDemo.eot');
+	src: url('BeautyDemo.eot?#iefix') format('embedded-opentype'),
+		url('BeautyDemo.woff') format('woff'),
+		url('BeautyDemo.ttf') format('truetype');
+}body {
+    background-color: #419F99;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 12;
+    color: #000000;
+    background-image: url(../../images/pexels-mads-thomsen-2739013.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#videodiv {
+    position: absolute;
+    z-index: -2;
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    float: none;
+    clear: none;
+    display: block;
+    overflow: hidden;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.mainHeader #div1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 37.5%;
+    top: 25px;
+    text-align: center;
+    z-index: 0;
+    background-color: #A7E36D;
+    border-radius: 20px 0px;
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(67,158,117,1.00) 68.40%, rgba(195,65,65,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(67,158,117,1.00) 68.40%, rgba(195,65,65,1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(67,158,117,1.00) 68.40%, rgba(195,65,65,1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(255,255,255,1.00) 0%, rgba(67,158,117,1.00) 68.40%, rgba(195,65,65,1.00) 100%);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.mainnav #navmenu {
+    position: relative;
+	float:right;
+    top: 97px;
+    height: auto;
+    z-index: 1;
+    background-color: #54BDB9;
+    text-align: right;
+    width: 75%;
+    left: auto;
+    right: 10px;
+    text-decoration: none;
+    opacity: 0.85;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    word-spacing: 18px;
+    -webkit-box-shadow: 4px 4px 2px;
+    box-shadow: 4px 4px 2px;
+    background-size: cover;
+}
+.mainnav #navmenu ul {
+    height: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainnav #navmenu .menuitems {
+    position: relative;
+	font-size: 16px;
+}
+/*
+#navmenu .menuitems #home:hover, #co:hover,#ce:hover,#r:hover,#si:hover,#su:hover{
+    background-color: #5AD5D3;
+}
+*/
+#navmenu .menuitems #home,#co,#ce,#r,#si,#su {
+    text-decoration: none;
+}
+#homesubmenu,#cosubmenu,#cesubmenu,#rsubmenu {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: #000000;
+    background-color: #EDE6E7;
+    display: none;
+    position: relative;
+    width: 250px;
+    overflow: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+}
+
+.mainnav #navmenu .menuitems:hover #homesubmenu {
+    display:block;
+    font-size: 12;
+    position: absolute;
+    margin-left: 360%;
+    margin-top: 0px;
+	white-space: nowrap;
+}
+
+
+.mainnav #navmenu .menuitems:hover #cosubmenu {
+    display: block;
+    font-size: 12;
+    position: absolute;
+    margin-left: 195%;
+    margin-top: 0px;
+	white-space: nowrap;
+}
+.mainnav #navmenu .menuitems:hover #cesubmenu {
+    display: block;
+    font-size: 12;
+    position: absolute;
+    margin-left: 247%;
+    margin-top: 0px;
+}
+.mainnav #navmenu .menuitems:hover #rsubmenu {
+    display: block;
+    font-size: 12;
+    position: absolute;
+    margin-left: 850%;
+    margin-top: 0px;
+	white-space: nowrap;
+}
+.menuitems {
+    display: inline;
+    -webkit-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+}
+ul li .me, .ce, .ee, .eee, .cse {
+    text-decoration: none;
+    padding-right: 100px;
+}
+ul li .me:hover, .ce:hover, .ee:hover, .eee:hover, .cse:hover {
+    background-color: #FFFD00;
+}
+ul li #about, #contact, #feedback {
+    text-decoration: none;
+    padding-right: 100px;
+	font-size: 14px
+}
+ul li #about:hover, #contact:hover, #feedback:hover {
+    background-color: #FFFD00;
+}
+
+body, td, th {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+.menuitems:hover {
+    background-color: #F2787A;
+    font-weight: bolder;
+}
